@@ -1,15 +1,15 @@
 Algoritmo "Lista03Exercicio02"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : calcular e apresentar o volume de uma caixa retangular
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : calcular e apresentar o volume de uma caixa retangular
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 volume,comprimento,largura,altura:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreval("Digite o comprimento da caixa em metros: ")
 Leia(comprimento)
 Escreval("Digite a largura da caixa em metros: ")
@@ -17,6 +17,6 @@ Leia(largura)
 Escreval("Digite a altura da caixa em metros: ")
 Leia(altura)
 volume<-comprimento*largura*altura
-Escreval("O volume da caixa é de : ",volume,"m³")
+Escreval("O volume da caixa Ã© de : ",volume,"mÂ³")
 
 Fimalgoritmo
