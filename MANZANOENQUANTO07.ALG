@@ -1,30 +1,30 @@
 Algoritmo "MANZANOENQUANTO07"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Elaborar  um  Escreva  um  programa  que
-//             apresente  a  série  de  Fibonacci  até
-//             o  décimo  quinto  termo.  A  série  de
-//             Fibonacci  é  formada  pela  seqüência:
+// DescriÃ§Ã£o   : Elaborar  um  Escreva  um  programa  que
+//             apresente  a  sÃ©rie  de  Fibonacci  atÃ©
+//             o  dÃ©cimo  quinto  termo.  A  sÃ©rie  de
+//             Fibonacci  Ã©  formada  pela  seqÃ¼Ãªncia:
 //             1,  1,  2,  3,  5, 8,  13,  21,  34,  ...,
-//             etc.  Esta  série  se  caracteriza pela  soma
+//             etc.  Esta  sÃ©rie  se  caracteriza pela  soma
 //             de  um  termo  atual  com  o  seu  anterior
-//             subseqüente,  para  que  seja  formado  o
-//             próximo valor da seqüência. Portanto começando
-//             com os números 1, 1 o próximo termo é 1+1=2,
-//             o próximo é 1+2=3, o próximo é 2+3=5, o próximo 3+5=8, etc.
+//             subseqÃ¼ente,  para  que  seja  formado  o
+//             prÃ³ximo valor da seqÃ¼Ãªncia. Portanto comeÃ§ando
+//             com os nÃºmeros 1, 1 o prÃ³ximo termo Ã© 1+1=2,
+//             o prÃ³ximo Ã© 1+2=3, o prÃ³ximo Ã© 2+3=5, o prÃ³ximo 3+5=8, etc.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora, valor1, valor2, valor3: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    valor1 <- 1
    valor2 <- 2
    escreval(" 1")
-   enquanto contadora<15 faça
+   enquanto contadora<15 faÃ§a
       valor3 <- valor1+valor2
       valor1 <- valor2
       valor2 <- valor3
