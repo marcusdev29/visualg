@@ -1,30 +1,30 @@
 Algoritmo "MANZANOENQUANTO10"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Elaborar  um  programa  que  apresente
-//             os  resultados  da  soma  e  da  média
-//             aritmética  dos  valores pares situados na faixa
-//             numérica de 50 a 70.
+// DescriÃ§Ã£o   : Elaborar  um  programa  que  apresente
+//             os  resultados  da  soma  e  da  mÃ©dia
+//             aritmÃ©tica  dos  valores pares situados na faixa
+//             numÃ©rica de 50 a 70.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 14/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  soma, contadora: inteiro
  media: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    contadora <- 50
-   Enquanto contadora<70 faça
-      se contadora mod 2 = 0 então
+   Enquanto contadora<70 faÃ§a
+      se contadora mod 2 = 0 entÃ£o
          soma <- soma + contadora
       fimse
       contadora <- contadora +1
    fimenquanto
    media <- soma/10
-   escreval("A soma é:",soma)
-   escreval("A média é ",media)
+   escreval("A soma Ã©:",soma)
+   escreval("A mÃ©dia Ã© ",media)
 
 
 Fimalgoritmo
