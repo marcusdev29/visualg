@@ -1,24 +1,24 @@
 Algoritmo "MANZANOEXERCICIO09REPITA"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaSript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaSript]
 // Professor   : Obama
-// DescriÁ„o   :
+// Descri√ß√£o   :
 
 //Elaborar  um  programa  que  efetue  a
 //leitura  de  valores  positivos  inteiros
-//atÈ  que  um  valor  negativo seja  informado.
+//at√©  que  um  valor  negativo seja  informado.
 // Ao  final  devem  ser  apresentados  o
-//maior  e  o  menor  valores  informados  pelo usu·rio.
+//maior  e  o  menor  valores  informados  pelo usu√°rio.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    menor, maior, valor: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
-   // vai ser sÛ para o fatorial
+   // vai ser s√≥ para o fatorial
 
 
 
@@ -26,21 +26,21 @@ Inicio
    leia(valor)
    maior <- valor
    menor <- valor
-   se valor >0 ent„o
+   se valor >0 ent√£o
       repita
          escreval("Insira um valor: ")
          leia(valor)
-         se valor > maior ent„o
+         se valor > maior ent√£o
             maior <- valor
-         sen„o
-              se valor < menor ent„o
+         sen√£o
+              se valor < menor ent√£o
                  menor <- valor
               fimse
          fimse
       ate valor < 0
    fimse
-   Escreval("Valor negativo. Finalizando execuÁ„o")
-   Escreval("O menor n˙mero digitado foi: ", menor)
-   Escreval("O maior n˙mero digitado foi: ", maior)
+   Escreval("Valor negativo. Finalizando execu√ß√£o")
+   Escreval("O menor n√∫mero digitado foi: ", menor)
+   Escreval("O maior n√∫mero digitado foi: ", maior)
 
 Fimalgoritmo
