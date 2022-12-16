@@ -1,27 +1,27 @@
 Algoritmo "FACCAT38"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Faça  um  algoritmo  para  ler  um  número  que  é  um  código  de  usuário.  Caso  este  código  seja diferente  de  um  código  armazenado  internamente  no  algoritmo  (igual  a 1234)  deve  ser  apresentada  a mensagem ‘Usuário inválido!’. Caso o Código seja correto, deve ser lido outro valor que é a senha. Se esta senha estiver incorreta (a certa  é 9999) deve ser mostrada a mensagem ‘senha incorreta’. Caso a senha esteja correta, deve ser mostrada a mensagem ‘Acesso permitido’.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : FaÃ§a  um  algoritmo  para  ler  um  nÃºmero  que  Ã©  um  cÃ³digo  de  usuÃ¡rio.  Caso  este  cÃ³digo  seja diferente  de  um  cÃ³digo  armazenado  internamente  no  algoritmo  (igual  a 1234)  deve  ser  apresentada  a mensagem â€˜UsuÃ¡rio invÃ¡lido!â€™. Caso o CÃ³digo seja correto, deve ser lido outro valor que Ã© a senha. Se esta senha estiver incorreta (a certa  Ã© 9999) deve ser mostrada a mensagem â€˜senha incorretaâ€™. Caso a senha esteja correta, deve ser mostrada a mensagem â€˜Acesso permitidoâ€™.
+// Autor(a)    :
 // Data atual  : 07/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    usuario, senha:caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Insira seu nome de usuário:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Insira seu nome de usuÃ¡rio:")
    leia(usuario)
-   se usuario = "Pedro" então
-      Escreval("Usuário inválido!")
-   senão
+   se usuario = "Pedro" entÃ£o
+      Escreval("UsuÃ¡rio invÃ¡lido!")
+   senÃ£o
       Escreval("Bem-vindo(a) ",usuario,"!")
       Escreval("")
       Escreval("Inserir senha:")
       leia(senha)
-      se senha <> "9999" então
+      se senha <> "9999" entÃ£o
          Escreval("Senha incorreta.")
-      senão
+      senÃ£o
          Escreval("Acesso permitido.")
       fimse
    fimse
