@@ -1,16 +1,16 @@
 Algoritmo "ManzanoExercicio01Enquanto"
-// Disciplina  : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Obama
-// Descrição   : Apresentar os resultados de uma tabuada de multiplicar
-//               (de 1 até 10) de um número qualquer.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Apresentar os resultados de uma tabuada de multiplicar
+//               (de 1 atÃ© 10) de um nÃºmero qualquer.
+// Autor(a)    : 
 // Data atual  : 23/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contador, valor:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Digite um numero natural:")
    Leia(valor)
    Enquanto contador<11 faca
