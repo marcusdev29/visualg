@@ -1,18 +1,18 @@
 Algoritmo "MANZANOENQUANTO01"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Apresentar os resultados de uma tabuada de multiplicar
-//                (de 1 até 10) de um número qualquer.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Apresentar os resultados de uma tabuada de multiplicar
+//                (de 1 atÃ© 10) de um nÃºmero qualquer.
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 contadora, numero: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-enquanto contadora<10 faça
+enquanto contadora<10 faÃ§a
          contadora <- contadora + 1
          numero <- contadora*10
          escreval(contadora,"  x 10 = ",numero)
