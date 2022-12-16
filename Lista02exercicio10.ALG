@@ -1,15 +1,15 @@
-Algoritmo "Lista02ExercÌcio10"
-// Disciplina  : [LÛgica de ProgramaÁ„o com Java Script]
+Algoritmo "Lista02Exerc√≠cio10"
+// Disciplina  : [L√≥gica de Programa√ß√£o com Java Script]
 // Professor   : Obama
-// DescriÁ„o   : Ler dois valores (inteiros, reais ou caracteres) para as vari·veis A e B, e efetuar a troca dos valores de forma que a vari·vel A passe a possuir o valor da vari·vel B e a vari·vel B passe a possuir o valor da vari·vel A. Apresentar os valores trocados.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Ler dois valores (inteiros, reais ou caracteres) para as vari√°veis A e B, e efetuar a troca dos valores de forma que a vari√°vel A passe a possuir o valor da vari√°vel B e a vari√°vel B passe a possuir o valor da vari√°vel A. Apresentar os valores trocados.
+// Autor(a)    :
 // Data atual  : 09/09/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    A,B:real
    C:real
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Insira um valor para A")
    Leia(A)
    Escreval("Insira um valor para B")
