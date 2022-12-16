@@ -2,8 +2,8 @@ Algoritmo "Manzano23"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler o nome, a altura e o sexo (M ou F) de uma pessoa, calcular e mostrar o peso ideal do usuário
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
-// Data atual  : 13/09/2022
+// Autor(a)    :
+// Data atual  : 13/09/202
 Var
    // Seção de Declarações das variáveis
    nome,sexo:caractere
