@@ -1,23 +1,23 @@
 Algoritmo "MANZANOENQUANTO03"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Elaborar um programa que apresente no final o somatório dos
-//               valores pares existentes na faixa de 1 até 500..
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Elaborar um programa que apresente no final o somatÃ³rio dos
+//               valores pares existentes na faixa de 1 atÃ© 500..
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora, soma: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   enquanto contadora<100 faça
+   enquanto contadora<100 faÃ§a
       contadora <- contadora + 1
-      se contadora mod 2 = 0 então
+      se contadora mod 2 = 0 entÃ£o
          soma <- soma + contadora
       fimse
    fimenquanto
-   escreval("Soma é: ",soma)
+   escreval("Soma Ã©: ",soma)
 
 Fimalgoritmo
