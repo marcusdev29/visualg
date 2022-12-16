@@ -1,19 +1,19 @@
-Algoritmo "Conversão de Celsius para Farenheit 2"
-// Disciplina  : [Lógica de Programação com JavaScript]
+Algoritmo "ConversÃ£o de Celsius para Farenheit 2"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Ler graus celsius, converter e exibir valor em farenheit
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Ler graus celsius, converter e exibir valor em farenheit
+// Autor(a)    : 
 // Data atual  : 02/09/2022
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 celsius:real
 farenheit:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-Escreval("Conversão de graus celsius para farenheit")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+Escreval("ConversÃ£o de graus celsius para farenheit")
 Escreval("Insira valor em celsius (Apenas algarismos): ")
 Leia(celsius)
 farenheit<-(9*celsius+160)/5
-Escreval(celsius,"°C é igual à ",farenheit,"°F")
+Escreval(celsius,"Â°C Ã© igual Ã  ",farenheit,"Â°F")
 Fimalgoritmo
