@@ -1,30 +1,30 @@
 Algoritmo "MANZANOEXERCICIO03REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
-// Apresentar  todos  os  números  divisíveis
+// Apresentar  todos  os  nÃºmeros  divisÃ­veis
 // por  4  que  sejam  menores  que  200.  Para
-// verificar  se  o número  é  divisível  por  4,
-// efetuar  dentro  da  malha  a  verificação
-//  lógica  desta  condição  com  a instrução se,
-//   perguntando  se  o  número  é  divisível;
-//   sendo,  mostre-o;  não  sendo,  passe  para
-//   o próximo passo. A variável
-// que controlará o contador deve ser iniciada com o valor 1.
+// verificar  se  o nÃºmero  Ã©  divisÃ­vel  por  4,
+// efetuar  dentro  da  malha  a  verificaÃ§Ã£o
+//  lÃ³gica  desta  condiÃ§Ã£o  com  a instruÃ§Ã£o se,
+//   perguntando  se  o  nÃºmero  Ã©  divisÃ­vel;
+//   sendo,  mostre-o;  nÃ£o  sendo,  passe  para
+//   o prÃ³ximo passo. A variÃ¡vel
+// que controlarÃ¡ o contador deve ser iniciada com o valor 1.
 
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    contadora <- 0
    repita
-      se contadora  mod 4 = 0 então
+      se contadora  mod 4 = 0 entÃ£o
          escreval(contadora)
       fimse
       contadora <- contadora+1
