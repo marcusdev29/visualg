@@ -1,25 +1,25 @@
 Algoritmo "MANZANOENQUANTO08"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Elaborar um programa que apresente os valores de
-//             conversão de graus Celsius em Fahrenheit,
+// DescriÃ§Ã£o   : Elaborar um programa que apresente os valores de
+//             conversÃ£o de graus Celsius em Fahrenheit,
 //             de 10 em 10 graus, iniciando a contagem
 //             em 10 graus Celsius e finalizando em 100
 //             graus Celsius. O programa
 //             deve   apresentar   os   valores   das   duas   temperaturas.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 14/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  celsius, fahrenheit: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Enquanto celsius<=100 faça
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Enquanto celsius<=100 faÃ§a
       celsius <- celsius + 10
       fahrenheit <- (9*celsius+160)/5
-      escreval(celsius,"ºC é igual à ",fahrenheit,"ºF")
+      escreval(celsius,"ÂºC Ã© igual Ã  ",fahrenheit,"ÂºF")
    fimenquanto
 
 
