@@ -1,28 +1,28 @@
 Algoritmo "MANZANOEXERCICIO07REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
 //Elaborar  um  programa  que  apresente  como
 //resultado  o  valor  do
-//fatorial  dos  valores  ímpares situados na faixa
-//numérica de 1 a 10.
+//fatorial  dos  valores  Ã­mpares situados na faixa
+//numÃ©rica de 1 a 10.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  fatorial, incremento, contadora:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   // vai ser só para o fatorial
+   // vai ser sÃ³ para o fatorial
 
    contadora <-  2
-   escreval("O fatorial de 1 é 1")
+   escreval("O fatorial de 1 Ã© 1")
    repita
-      se contadora mod 2 <> 0 então
+      se contadora mod 2 <> 0 entÃ£o
             incremento <- 1
             fatorial <- contadora * (contadora - incremento)
          repita
@@ -35,7 +35,7 @@ Inicio
 
             
          ate (contadora - incremento) = 1
-         escreval("O fatorial de ",contadora ," é ",fatorial)
+         escreval("O fatorial de ",contadora ," Ã© ",fatorial)
 
       fimse
 
