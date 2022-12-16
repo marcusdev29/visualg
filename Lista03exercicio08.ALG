@@ -1,16 +1,16 @@
 Algoritmo "lista03exercicio08"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : efetuar a leitura de quatro valores inteiros; apresentar o resultado do
+// DescriÃ§Ã£o   : efetuar a leitura de quatro valores inteiros; apresentar o resultado do
 //               produto do primeiro com o terceiro valor e o resultado da soma  do segundo com o quarto valor
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 A,B,C,D,P,S:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreval("Digite o primeiro valor: ")
 Leia(A)
 Escreval("Digite o segundo valor: ")
@@ -21,7 +21,7 @@ Escreval("Digite o quarto valor: ")
 Leia(D)
 P<-A*C
 S<-B+D
-Escreval("O produto do primeiro valor pelo terceiro é: ",P)
-Escreval("Já a soma do segundo valor com o quarto é: ",S)
+Escreval("O produto do primeiro valor pelo terceiro Ã©: ",P)
+Escreval("JÃ¡ a soma do segundo valor com o quarto Ã©: ",S)
 
 Fimalgoritmo
