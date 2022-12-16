@@ -1,37 +1,37 @@
 Algoritmo "FACCAT37"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   :  Escreva  um  algoritmo  para  ler  a  quantidade  (em  Kg)  de morangos e a quantidade (em Kg) de maÁas adquiridas e escreva o valor a ser pago pelo cliente.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   :  Escreva  um  algoritmo  para  ler  a  quantidade  (em  Kg)  de morangos e a quantidade (em Kg) de ma√ßas adquiridas e escreva o valor a ser pago pelo cliente.
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    quilosMaca, quilosMorango, totalFrutas, valorTotal, valorMorango, valorMaca:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Insira a quantidade de quilos de maÁ„ a ser comprada:")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Insira a quantidade de quilos de ma√ß√£ a ser comprada:")
    leia(quilosMaca)
    Escreval("Insira a quantidade de quilos de morango a ser comprada:")
    leia(quilosMorango)
 
-   //Teste de quantidade e valor para maÁ„
-   se quilosMaca>5 ent„o
+   //Teste de quantidade e valor para ma√ß√£
+   se quilosMaca>5 ent√£o
       valorMaca<-quilosMaca*1.50
-      Escreval("Quantidade de quilos de maÁa:",quilosMaca)
-      Escreval("Valor dos quilos de maÁ„: R$",valorMaca)
-   sen„o
+      Escreval("Quantidade de quilos de ma√ßa:",quilosMaca)
+      Escreval("Valor dos quilos de ma√ß√£: R$",valorMaca)
+   sen√£o
       valorMaca<-quilosMaca*1.80
-      Escreval("Quantidade de quilos de maÁa:",quilosMaca)
-      Escreval("Valor dos quilos de maÁ„: R$",valorMaca)
+      Escreval("Quantidade de quilos de ma√ßa:",quilosMaca)
+      Escreval("Valor dos quilos de ma√ß√£: R$",valorMaca)
    fimse
    
       //Teste de quantidade e valor para morango
-   se quilosMorango>5 ent„o
+   se quilosMorango>5 ent√£o
       valorMorango<-quilosMorango*2.20
       Escreval("Quantidade de quilos de morango:",quilosMorango)
       Escreval("Valor dos quilos de morango: R$",valorMorango)
-   sen„o
+   sen√£o
       valorMorango<-quilosMorango*2.50
       Escreval("Quantidade de quilos de morango:",quilosMorango)
       Escreval("Valor dos quilos de morango: R$",valorMorango)
@@ -40,7 +40,7 @@ Inicio
    valorTotal<-valorMaca+valorMorango
 
 
-   se (totalFrutas>8) ou (valorTotal>25) ent„o
+   se (totalFrutas>8) ou (valorTotal>25) ent√£o
       valorTotal<-valorTotal-(valorTotal/10)
    fimse
    Escreval("Total a pagar: R$",valorTotal)
