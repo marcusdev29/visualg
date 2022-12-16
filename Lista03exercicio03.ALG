@@ -1,22 +1,22 @@
 Algoritmo "Lista03Exercicio03"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Ler dois inteiros (variáveis A e B) e imprimir o resultado do quadrado da diferença do primeiro valor pelo segundo.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Ler dois inteiros (variÃ¡veis A e B) e imprimir o resultado do quadrado da diferenÃ§a do primeiro valor pelo segundo.
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 A,B,C:inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreval("Digite um valor inteiro: ")
 Leia(A)
 Escreval("Digite outro valor inteiro: ")
 Leia(B)
 C<-A-B
 C<-C*C
-Escreval("O quadrado da diferença de A e B é: ",C)
+Escreval("O quadrado da diferenÃ§a de A e B Ã©: ",C)
 
 Fimalgoritmo
