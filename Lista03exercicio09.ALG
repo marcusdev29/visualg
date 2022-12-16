@@ -1,25 +1,25 @@
 Algoritmo "lista03exercicio09"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Ler o valor correspondente ao sal·rio mensal de um trabalhador e tambÈm o valor do percentual de reajuste a ser atribuÌdo. Apresentar o valor do novo sal·rio.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Ler o valor correspondente ao sal√°rio mensal de um trabalhador e tamb√©m o valor do percentual de reajuste a ser atribu√≠do. Apresentar o valor do novo sal√°rio.
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 SM,PR,NS:real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
 
 
-Escreval("Digite seu sal·rio mensal: ")
+Escreval("Digite seu sal√°rio mensal: ")
 Leia(SM)
 Escreval("Digite o percentual do reajuste (apenas os algarismos): ")
 Leia(PR)
 PR<-PR/100
 NS<-SM*PR+SM
-Escreval("O valor do novo sal·rio ser· de R$",NS)
+Escreval("O valor do novo sal√°rio ser√° de R$",NS)
 
 
 Fimalgoritmo
