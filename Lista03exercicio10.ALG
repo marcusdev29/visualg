@@ -1,11 +1,11 @@
 Algoritmo "lista03exercicio10"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Ler quantidade de votos válidos para respectivos candidados, votos nulos e brancos; calcular o total dos eleitores, junto com a porcentagem dos votos.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Ler quantidade de votos vÃ¡lidos para respectivos candidados, votos nulos e brancos; calcular o total dos eleitores, junto com a porcentagem dos votos.
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    votosValidos,votosValidosA,votosValidosB,votosValidosC:inteiro
    votosNulos,votosBrancos,totalEleitores:inteiro
    porcentoValidoA,porcentoValidoB,porcentoValidoC:real
@@ -13,12 +13,12 @@ Var
    totalPorcento:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite a quantidade de votos válidos do candidato A: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite a quantidade de votos vÃ¡lidos do candidato A: ")
    Leia(votosValidosA)
-   Escreval("Digite a quantidade de votos válidos do candidato B: ")
+   Escreval("Digite a quantidade de votos vÃ¡lidos do candidato B: ")
    Leia(votosValidosB)
-   Escreval("Digite a quantidade de votos válidos do candidato C: ")
+   Escreval("Digite a quantidade de votos vÃ¡lidos do candidato C: ")
    Leia(votosValidosC)
    Escreval("Digite a quantidade de votos nulos: ")
    Leia(votosNulos)
@@ -33,10 +33,10 @@ Inicio
    porcentoBranco<-(votosBrancos*100)/totalEleitores
    porcentoNulo<-(votosNulos*100)/totalEleitores
    Escreval("Total de Eleitores:  ",totalEleitores)
-   Escreval("Porcentagem total de votos válidos: ",totalPorcento,"%")
-   Escreval("Porcentagem de votos válidos do candidato A: ",porcentoValidoA,"%")
-   Escreval("Porcentagem de votos válidos do candidato B: ",porcentoValidoB,"%")
-   Escreval("Porcentagem de votos válidos do candidato C: ",porcentoValidoC,"%")
+   Escreval("Porcentagem total de votos vÃ¡lidos: ",totalPorcento,"%")
+   Escreval("Porcentagem de votos vÃ¡lidos do candidato A: ",porcentoValidoA,"%")
+   Escreval("Porcentagem de votos vÃ¡lidos do candidato B: ",porcentoValidoB,"%")
+   Escreval("Porcentagem de votos vÃ¡lidos do candidato C: ",porcentoValidoC,"%")
    Escreval("Porcentagem de votos brancos: ",porcentoBranco,"%")
    Escreval("Porcentagem de votos nulos: ",porcentoNulo,"%")
 
