@@ -2,7 +2,7 @@ Algoritmo "Manzano28"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler 3 valores diferentes e escrever o maior deles.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    :
 // Data atual  : 14/09/2022
 Var
    // Seção de Declarações das variáveis
