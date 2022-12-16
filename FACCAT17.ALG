@@ -1,8 +1,8 @@
 Algoritmo "ManzanoExercicio17"
 // Disciplina  : [Lógica de Programação com Java Script]
 // Professor   : Obama
-// Descrição   : Calcular  a  média aritmética  simples  e  escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descrição   : Calcular  a  média aritmética  simples  e  escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calcula
+// Autor(a)    : 
 // Data atual  : 09/09/2022
 Var
    // Seção de Declarações das variáveis
