@@ -2,7 +2,7 @@ Algoritmo "Manzano19"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler dois valores diferentes e escrever o maior deles.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/09/2022
 Var
    // Seção de Declarações das variáveis
