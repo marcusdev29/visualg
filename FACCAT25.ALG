@@ -2,7 +2,7 @@ Algoritmo "Manzano25"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler: número da  conta do cliente, saldo, débito e  crédito. Após,  calcular e escrever o saldo atual. Também testar se saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 14/09/2022
 Var
    // Seção de Declarações das variáveis
