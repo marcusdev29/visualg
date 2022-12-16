@@ -1,18 +1,18 @@
-Algoritmo "C·culo do percentual de eleitores"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "C√°culo do percentual de eleitores"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   :Ler quantidade de votos v·lidos, nulos e brancos. Processar e exibir a porcentagem dos mesm em relaÁ„o ao total de votos
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   :Ler quantidade de votos v√°lidos, nulos e brancos. Processar e exibir a porcentagem dos mesm em rela√ß√£o ao total de votos
+// Autor(a)    : 
 // Data atual  : 02/09/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 validos,nulos,brancos,total:inteiro
 porcentoValido,porcentoNulo,porcentoBranco:real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 Escreval("Bem Vindo(a) ao sistema de dados eleitoral municipal.")
-Escreval("Insira quantos votos v·lidos foram cadastrados: ")
+Escreval("Insira quantos votos v√°lidos foram cadastrados: ")
 Leia(validos)
 Escreval("Escreva os votos nulos: ")
 Leia(nulos)
@@ -22,8 +22,8 @@ total<-validos+nulos+brancos
 porcentoValido<-(validos*100)/total
 porcentoNulo<-(nulos*100)/total
 porcentoBranco<-(brancos*100)/total
-Escreval("No municÌpio houveram ",total," votos no total.")
-Escreval("Destes, ",porcentoValido,"% s„o votos v·lidos," )
-Escreval(porcentoNulo,"% s„o nulos e ",porcentoBranco,"% s„o brancos.")
+Escreval("No munic√≠pio houveram ",total," votos no total.")
+Escreval("Destes, ",porcentoValido,"% s√£o votos v√°lidos," )
+Escreval(porcentoNulo,"% s√£o nulos e ",porcentoBranco,"% s√£o brancos.")
 
 Fimalgoritmo
