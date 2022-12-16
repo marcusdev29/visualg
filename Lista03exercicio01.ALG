@@ -1,8 +1,8 @@
 Algoritmo "Lista03Exerciio01"
 // Disciplina  : [Lógica de Programação com Java Script]
 // Professor   : Obama
-// Descrição   : Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na utilização do conceito da propriedade distributiva.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descrição   : Ler quatro números inteiros e apresentar o resultado da adição e multiplicação, baseando-se na utilização do conceito da propriedade distributiva
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
 // Seção de Declarações das variáveis 
