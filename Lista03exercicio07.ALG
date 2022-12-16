@@ -1,15 +1,15 @@
 Algoritmo "lista03exercicio07"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Efetuar a leitura de três valores (A, B e C) e apresentar como resultado final o quadrado da soma dos três valores lidos.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Efetuar a leitura de trÃªs valores (A, B e C) e apresentar como resultado final o quadrado da soma dos trÃªs valores lidos.
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A,B,C,quadradoSoma:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 Escreval("Digite o primeiro valor: ")
 Leia(A)
 Escreval("Digite o segundo valor: ")
@@ -17,6 +17,6 @@ Leia(B)
 Escreval("Digite o terceiro valor: ")
 Leia(C)
 quadradoSoma<-(A+B+C)^2
-Escreval("O quadrado da soma é igual à: ",quadradoSoma)
+Escreval("O quadrado da soma Ã© igual Ã : ",quadradoSoma)
 
 Fimalgoritmo
