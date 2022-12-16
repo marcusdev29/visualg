@@ -2,7 +2,7 @@ Algoritmo "Manzano26"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler:  quantidade  atual  em  estoque,  quantidade  máxima  em  estoque  e quantidade  mínima  em  estoque  de  um  produto.  Calcular  e  escrever  a  quantidade  média. Se a quantidade em estoque for maior ou igual a  quantidade  média  escrever  a  mensagem  'Não  efetuar  compra',  senão  escrever  a  mensagem  'Efetuar compra'.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    :
 // Data atual  : 14/09/2022
 Var
    // Seção de Declarações das variáveis
