@@ -1,28 +1,28 @@
 Algoritmo "FACCAT34"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Ler dois valores e atribuí-los à uma função. Escreva uma resposta com base no resultado de "z"
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Ler dois valores e atribuÃ­-los Ã  uma funÃ§Ã£o. Escreva uma resposta com base no resultado de "z"
+// Autor(a)    :
 // Data atual  : 07/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  resposta:caractere
  y,x,z:inteiro
  
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Valor para X")
    Leia(x)
    Escreval("Valor para Y")
    leia(y)
    z<-(x*y)+5
-   se z <=0 então
+   se z <=0 entÃ£o
       resposta<-"A"
-   senão
-      se z<=100 então
+   senÃ£o
+      se z<=100 entÃ£o
          resposta<-"B"
-      senão
+      senÃ£o
          resposta<-"C"
       fimse
    fimse
