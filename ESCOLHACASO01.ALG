@@ -1,16 +1,16 @@
 Algoritmo "EscolhaCaso01"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Ler número e exibir mês correspondente
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Ler nÃºmero e exibir mÃªs correspondente
+// Autor(a)    :
 // Data atual  : 16/09/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite um número:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite um nÃºmero:")
    Leia(numero)
    Escolha numero
    caso 1
@@ -18,7 +18,7 @@ Inicio
    caso 2
       Escreval("Fevereiro")
    caso 3
-      Escreval("Março")
+      Escreval("MarÃ§o")
    caso 4
       Escreval("Abril")
    caso 5
@@ -38,7 +38,7 @@ Inicio
    caso 12
       Escreval("Dezembro")
    outrocaso
-      Escreval("Número inválido")
+      Escreval("NÃºmero invÃ¡lido")
    fimescolha
 
 
