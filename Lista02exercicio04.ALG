@@ -1,25 +1,25 @@
-Algoritmo "C·lculo do preÁo final de um carro"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+Algoritmo "C√°lculo do pre√ßo final de um carro"
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Ler custo de f·brica do veÌculo, processar e exibir custo de f·brica mais porcentagem do imposto e porcentagem do distribuidor
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva-
+// Descri√ß√£o   : Ler custo de f√°brica do ve√≠culo, processar e exibir custo de f√°brica mais porcentagem do imposto e porcentagem do distribuidor
+// Autor(a)    : 
 // Data atual  : 02/09/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 custoDeFabrica:real
 porcentoDistribuidor:real
 porcentoImposto:real
 custoConsumidor:real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-Escreval("Digite o valor do custo de f·brica: ")
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
+Escreval("Digite o valor do custo de f√°brica: ")
 Leia(custoDeFabrica)
 porcentoDistribuidor<-custoDeFabrica*(28/100)
 porcentoImposto<-custoDeFabrica*(45/100)
 custoConsumidor<-porcentoDistribuidor+porcentoImposto+custoDeFabrica
 
-Escreval("O preÁo final para o consumidor ser· de R$",custoConsumidor,".")
+Escreval("O pre√ßo final para o consumidor ser√° de R$",custoConsumidor,".")
 
 
 Fimalgoritmo
