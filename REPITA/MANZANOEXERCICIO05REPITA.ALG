@@ -1,19 +1,19 @@
 Algoritmo "MANZANOEXERCICIO05REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
-// Apresentar os quadrados dos números inteiros de 15 a 200.
+// Apresentar os quadrados dos nÃºmeros inteiros de 15 a 200.
 
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
   contadora,quadrado:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    contadora <- 15
    repita
       quadrado <- contadora*contadora
