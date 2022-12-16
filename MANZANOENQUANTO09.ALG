@@ -1,28 +1,28 @@
 Algoritmo "MANZANOENQUANTO09"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Elaborar um programa que efetue a
-//             leitura de 10 valores numéricos e apresente no final o
-//             total do somatório e a média aritmética dos valores lidos.
+// DescriÃ§Ã£o   : Elaborar um programa que efetue a
+//             leitura de 10 valores numÃ©ricos e apresente no final o
+//             total do somatÃ³rio e a mÃ©dia aritmÃ©tica dos valores lidos.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 14/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
  soma, media, entrada: real
  contadora: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Enquanto contadora<10 faça
-      Escreval("Escreva um número:")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Enquanto contadora<10 faÃ§a
+      Escreval("Escreva um nÃºmero:")
       leia(entrada)
       contadora <- contadora +1
       soma <- soma + entrada
    fimenquanto
    media <- soma/10
-   escreval("A soma é:",soma)
-   escreval("A média é ",media)
+   escreval("A soma Ã©:",soma)
+   escreval("A mÃ©dia Ã© ",media)
 
 
 Fimalgoritmo
