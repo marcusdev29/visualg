@@ -2,7 +2,7 @@ Algoritmo "Manzano21"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler hora inicial e final, calcular e exibir as horas de duração da partida
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/09/2022
 Var
    // Seção de Declarações das variáveis
