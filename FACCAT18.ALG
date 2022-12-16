@@ -2,7 +2,7 @@ Algoritmo "MANZANO18"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama 
 // Descrição   : Ler  o  ano  atual  e  o  ano  de  nascimento  de  uma  pessoa.  Escrever  uma mensagem  que  diga  se  ela poderá ou não votar este ano
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/09/2022
 Var
    // Seção de Declarações das variáveis
