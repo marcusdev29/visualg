@@ -2,7 +2,7 @@ Algoritmo "Manzano20"
 // Disciplina  : [Lógica de Programação com JavaScript]
 // Professor   : Obama
 // Descrição   : Ler dois valores diferentes e escrevê-los em ordem crescente
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/09/2022
 Var
    // Seção de Declarações das variáveis
