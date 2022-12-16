@@ -1,18 +1,18 @@
 Algoritmo "Lista03Exercicio04"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Efetuar a apresentação do valor da conversão em real de um valor lido em dólar
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Efetuar a apresentaÃ§Ã£o do valor da conversÃ£o em real de um valor lido em dÃ³lar
+// Autor(a)    : 
 // Data atual  : 12/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 cotDolar,qtdDolar,qtdReal:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreval("Digite a cotação atual do dolar: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+Escreval("Digite a cotaÃ§Ã£o atual do dolar: ")
 Leia(cotDolar)
-Escreval("Digite a quantidade em dólar: ")
+Escreval("Digite a quantidade em dÃ³lar: ")
 Leia(qtdDolar)
 qtdReal<-cotDolar*qtdDolar
 Escreval("Valor final: R$",qtdReal)
