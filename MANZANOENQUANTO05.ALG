@@ -1,26 +1,26 @@
 Algoritmo "MANZANOENQUANTO05"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Apresentar todos os valores numéricos Apresentar os
-// resultados das potências de 3, variando do
-// expoente 0 até o expoente 15. Deve ser
-// considerado  que  qualquer  número  elevado
-// a  zero  é  1,  e  elevado  a  1  é  ele  próprio.
+// DescriÃ§Ã£o   : Apresentar todos os valores numÃ©ricos Apresentar os
+// resultados das potÃªncias de 3, variando do
+// expoente 0 atÃ© o expoente 15. Deve ser
+// considerado  que  qualquer  nÃºmero  elevado
+// a  zero  Ã©  1,  e  elevado  a  1  Ã©  ele  prÃ³prio.
 // Observe  que neste
-// exercício não pode ser utilizado o operador de exponenciação do portuguol (^).
+// exercÃ­cio nÃ£o pode ser utilizado o operador de exponenciaÃ§Ã£o do portuguol (^).
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora, resultado: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    contadora <- 1
    resultado <- 1
    escreval("3 elevado a 0 = 1")
-   enquanto contadora<16 faça
+   enquanto contadora<16 faÃ§a
       resultado <- 3*resultado
       escreval("3 elevado a ",contadora," = ",resultado)
       contadora <- contadora + 1
