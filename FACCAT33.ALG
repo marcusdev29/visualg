@@ -1,27 +1,27 @@
 Algoritmo "FACCAT33"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Ler dois valores e imprimir uma das trÍs mensagens a seguir: ëN˙meros iguaisí, caso os n˙meros sejam iguais ëPrimeiro È maiorí, caso o primeiro seja maior que o segundo; ëSegundo maiorí, caso o segundo seja maior que o primeiro.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Ler dois valores e imprimir uma das tr√™s mensagens a seguir: ‚ÄòN√∫meros iguais‚Äô, caso os n√∫meros sejam iguais ‚ÄòPrimeiro √© maior‚Äô, caso o primeiro seja maior que o segundo; ‚ÄòSegundo maior‚Äô, caso o segundo seja maior que o primeiro.
+// Autor(a)    :
 // Data atual  : 07/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor1, valor2:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Digite um valor")
    Leia(valor1)
    Escreval("Digite outro valor")
    Leia(valor2)
 
-   se valor1 > valor2 ent„o
-      escreval("Primeiro È maior")
-   sen„o
-      se valor2 > valor1 ent„o
-         escreval("Segundo È maior")
-      sen„o
-         escreval("N˙meros iguais")
+   se valor1 > valor2 ent√£o
+      escreval("Primeiro √© maior")
+   sen√£o
+      se valor2 > valor1 ent√£o
+         escreval("Segundo √© maior")
+      sen√£o
+         escreval("N√∫meros iguais")
       fimse
    fimse
 
