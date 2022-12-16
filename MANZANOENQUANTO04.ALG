@@ -1,28 +1,28 @@
 Algoritmo "MANZANOENQUANTO04"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Apresentar todos os valores numéricos inteiros
-//               ímpares situados na faixa de 0 a 20. Para
-//               verificar se o número é ímpar, efetuar dentro da
-//               malha a verificação lógica desta condição com a instrução
-//               se, perguntando se o número é ímpar; sendo, mostre-o;
-//               não sendo, passe para o próximo passo.
+// DescriÃ§Ã£o   : Apresentar todos os valores numÃ©ricos inteiros
+//               Ã­mpares situados na faixa de 0 a 20. Para
+//               verificar se o nÃºmero Ã© Ã­mpar, efetuar dentro da
+//               malha a verificaÃ§Ã£o lÃ³gica desta condiÃ§Ã£o com a instruÃ§Ã£o
+//               se, perguntando se o nÃºmero Ã© Ã­mpar; sendo, mostre-o;
+//               nÃ£o sendo, passe para o prÃ³ximo passo.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora, soma: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   enquanto contadora<20 faça
+   enquanto contadora<20 faÃ§a
       contadora <- contadora + 1
-      se contadora mod 2 <> 0 então
+      se contadora mod 2 <> 0 entÃ£o
          soma <- soma + contadora
       fimse
    fimenquanto
-   escreval("Soma é: ",soma)
+   escreval("Soma Ã©: ",soma)
 
 Fimalgoritmo
