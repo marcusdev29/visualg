@@ -1,31 +1,31 @@
 Algoritmo "MANZANOEXERCICIO04REPITA"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaSript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaSript]
 // Professor   : Obama
-// DescriÁ„o   :
+// Descri√ß√£o   :
 
-// Elaborar um programa que efetue o c·lculo e no
-//final apresente o somatÛrio do n˙mero de gr„os de
+// Elaborar um programa que efetue o c√°lculo e no
+//final apresente o somat√≥rio do n√∫mero de gr√£os de
 //trigo que se pode obter num tabuleiro de xadrez,
-//obedecendo ‡ seguinte regra: colocar um gr„o de
+//obedecendo √† seguinte regra: colocar um gr√£o de
 //trigo no primeiro quadro e nos quadros seguintes
 //o dobro do quadro anterior. Ou seja, no primeiro
-//quadro coloca-se 1 gr„o, no segundo quadro colocam-se
-//2 gr„os (neste momento tÍm-se 3 gr„os), no  terceiro
-//quadro  colocam-se  4  gr„os  (tendo  neste momento
-//7  gr„os),  no  quarto  colocam-se  8 gr„os  (tendo-se
-//ent„o  15  gr„os)  atÈ  atingir  o  sexagÈsimo  quarto
+//quadro coloca-se 1 gr√£o, no segundo quadro colocam-se
+//2 gr√£os (neste momento t√™m-se 3 gr√£os), no  terceiro
+//quadro  colocam-se  4  gr√£os  (tendo  neste momento
+//7  gr√£os),  no  quarto  colocam-se  8 gr√£os  (tendo-se
+//ent√£o  15  gr√£os)  at√©  atingir  o  sexag√©simo  quarto
 //(64o)  quadro.
-//Utilize  vari·veis  do tipo real como acumuladores.
+//Utilize  vari√°veis  do tipo real como acumuladores.
 
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    soma, quadro, graos:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    quadro <- 1
    graos <- 1
    repita
