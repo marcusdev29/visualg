@@ -1,32 +1,32 @@
 Algoritmo "FACCAT40"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : FaÁa  um  algoritmo  para  ler:  a  descriÁ„o  do  produto  (nome),  a  quantidade  adquirida  e  o  preÁo unit·rio. Calcular e escrever o total (total = quantidade adquirida * preÁo unit·rio), o desconto e o total a pagar (total a pagar = total - desconto)
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Fa√ßa  um  algoritmo  para  ler:  a  descri√ß√£o  do  produto  (nome),  a  quantidade  adquirida  e  o  pre√ßo unit√°rio. Calcular e escrever o total (total = quantidade adquirida * pre√ßo unit√°rio), o desconto e o total a pagar (total a pagar = total - desconto)
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    nome, quantidade, preco, total, desconto, totalPagar:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Digite o nome do produto")
    leia(nome)
    Escreval("Digite a quantidade do produto")
    leia(quantidade)
-   Escreval("Digite o preÁo do produto")
+   Escreval("Digite o pre√ßo do produto")
    leia(preco)
 
 
-   se quantidade<=5 ent„o
+   se quantidade<=5 ent√£o
       total<-(quantidade*preco)
       desconto<-total*0.02
    fimse
-   se (quantidade>5) e (quantidade<=10) ent„o
+   se (quantidade>5) e (quantidade<=10) ent√£o
       total<-(quantidade*preco)
       desconto<-total*0.03
    fimse
-   se quantidade>10 ent„o
+   se quantidade>10 ent√£o
       total<-(quantidade*preco)
       desconto<-total*0.05
    fimse
