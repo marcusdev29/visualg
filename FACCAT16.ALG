@@ -2,7 +2,7 @@ Algoritmo "ManzanoExercicio16"
 // Disciplina  : [Lógica de Programação com Java Script]
 // Professor   : Obama
 // Descrição   : ler  o  número  de  maçãs  compradas,  calcular  e escrever o custo total da compra.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    :
 // Data atual  : 09/09/2022
 Var
    // Seção de Declarações das variáveis
