@@ -1,38 +1,38 @@
 Algoritmo "FACCAT30"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Ler  3  valores (considere  que  n„o  ser„o  informados  valores  iguais)  e  escrevÍ-los  em  ordem crescente.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Ler  3  valores (considere  que  n√£o  ser√£o  informados  valores  iguais)  e  escrev√™-los  em  ordem crescente.
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    numero1, numero2, numero3, maior, menor, meio, guardaVariavel:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Insira um n˙mero: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Insira um n√∫mero: ")
    Leia(numero1)
    maior<- numero1
-   Escreval("Insira um n˙mero: ")
+   Escreval("Insira um n√∫mero: ")
    Leia(numero2)
-   se numero2 > maior ent„o
+   se numero2 > maior ent√£o
       maior<- numero2
       menor<-numero1
-   sen„o
+   sen√£o
       menor<-numero2
    fimse
-   Escreval("Insira um n˙mero: ")
+   Escreval("Insira um n√∫mero: ")
    Leia(numero3)
-   se numero3 > maior ent„o
+   se numero3 > maior ent√£o
       guardaVariavel<- maior
       maior<- numero3
       meio<- guardaVariavel
-   sen„o
-      se (numero3 < maior) e (numero3 > menor) ent„o
+   sen√£o
+      se (numero3 < maior) e (numero3 > menor) ent√£o
          meio<-numero3
       fimse
    fimse
-   se numero3 < menor ent„o
+   se numero3 < menor ent√£o
       guardaVariavel<- menor
       menor<- numero3
       meio<- guardaVariavel
