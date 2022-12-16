@@ -1,26 +1,26 @@
 Algoritmo "MANZANOEXERCICIO09REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
 //Elaborar  um  programa  que  apresente  o  resultado
-//inteiro  da  divisão  de  dois  números  quaisquer.
-//Para a elaboração do programa, não utilizar em hipótese
-//alguma o conceito do operador aritmético DIV.  A  solução
-// deve  ser  alcançada  com  a  utilização de  looping.
+//inteiro  da  divisÃ£o  de  dois  nÃºmeros  quaisquer.
+//Para a elaboraÃ§Ã£o do programa, nÃ£o utilizar em hipÃ³tese
+//alguma o conceito do operador aritmÃ©tico DIV.  A  soluÃ§Ã£o
+// deve  ser  alcanÃ§ada  com  a  utilizaÃ§Ã£o de  looping.
 // Ou  seja,  o  programa  deve apresentar como resultado
 //(quociente) quantas vezes o divisor cabe no dividendo.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    quociente, dividendo, valor2, divisor: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   // vai ser só para o fatorial
+   // vai ser sÃ³ para o fatorial
 
 
 
@@ -35,7 +35,7 @@ Inicio
          quociente <- quociente + 1
 
       ate divisor >= dividendo
-   escreval("O quociente é ",quociente)
+   escreval("O quociente Ã© ",quociente)
 
 
 Fimalgoritmo
