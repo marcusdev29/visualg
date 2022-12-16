@@ -1,28 +1,28 @@
 Algoritmo "MANZANOEXERCICIO02REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
 // Elaborar um programa que apresente no final o
-// somatório dos valores pares existentes na faixa de 1 até 500.
+// somatÃ³rio dos valores pares existentes na faixa de 1 atÃ© 500.
 
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    contadora,quadrado, soma:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    contadora <- 1
    repita
-      se contadora  mod 2 = 0 então
+      se contadora  mod 2 = 0 entÃ£o
          quadrado <- contadora*contadora
          soma <- soma + quadrado
       fimse
       contadora <- contadora+1
    ate contadora=500
-   escreval("A soma é ",soma)
+   escreval("A soma Ã© ",soma)
 
 Fimalgoritmo
