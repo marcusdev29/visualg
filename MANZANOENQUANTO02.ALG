@@ -1,22 +1,22 @@
 Algoritmo "MANZANOENQUANTO02"
-// Disciplina  : [Lógica de Programação com Java Script]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com Java Script]
 // Professor   :  Obama
-// Descrição   : Apresentar o total da soma obtida dos cem primeiros
-//                 números inteiros (1+2+3+4+...+98+99+100).
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Apresentar o total da soma obtida dos cem primeiros
+//                 nÃºmeros inteiros (1+2+3+4+...+98+99+100).
+// Autor(a)    : 
 // Data atual  : 13/11/2022
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 contadora, soma: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-enquanto contadora<100 faça
+enquanto contadora<100 faÃ§a
 
          contadora <- contadora + 1
          soma <- soma + contadora
 fimenquanto
-escreval("Soma é: ",soma)
+escreval("Soma Ã©: ",soma)
 
 Fimalgoritmo
