@@ -1,28 +1,28 @@
 Algoritmo "MANZANOENQUANTO11"
-// Disciplina  : [LÛgica de ProgramaÁ„o com Java Script]
+// Disciplina  : [L√≥gica de Programa√ß√£o com Java Script]
 // Professor   :  Obama
-// DescriÁ„o   : Elaborar  um  programa  que  possibilite
-//             calcular  a ·rea  total  de  uma  residÍncia
-//             (sala,  cozinha, banheiro, quartos, ·rea de serviÁo,
+// Descri√ß√£o   : Elaborar  um  programa  que  possibilite
+//             calcular  a √°rea  total  de  uma  resid√™ncia
+//             (sala,  cozinha, banheiro, quartos, √°rea de servi√ßo,
 //             quintal, garagem, etc.). O programa deve solicitar a
 //             entrada do nome, a largura e o comprimento de um determinado
-//             cÙmodo. Em seguida, deve apresentar a ·rea do  cÙmodo
-//             lido  e  tambÈm  uma  mensagem  solicitando  do
-//             usu·rio  a  confirmaÁ„o  de  continuar calculando
-//             novos  cÙmodos.  Caso  o  usu·rio  responda  ìNAOî,
+//             c√¥modo. Em seguida, deve apresentar a √°rea do  c√¥modo
+//             lido  e  tamb√©m  uma  mensagem  solicitando  do
+//             usu√°rio  a  confirma√ß√£o  de  continuar calculando
+//             novos  c√¥modos.  Caso  o  usu√°rio  responda  ‚ÄúNAO‚Äù,
 //             o  programadeve  apresentar  o  valor total acumulado
-//             da ·rea residencial.
+//             da √°rea residencial.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    
 // Data atual  : 14/11/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    areaTotal, largura, comprimento, areaComodo: real
    comodo, confirma: caractere
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Nome do cÙmodo")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Nome do c√¥modo")
    leia(comodo)
    Escreval("Largura:")
    leia(largura)
@@ -30,13 +30,13 @@ Inicio
    leia(comprimento)
    areaComodo <- largura * comprimento
    areaTotal <- areaTotal+areaComodo
-   escreval("A ·rea do cÙmodo È:",areaComodo)
-   escreval("A ·rea total È:",areaTotal)
-   Escreval("Deseja adicionar outro cÙmodo? (S/N)")
+   escreval("A √°rea do c√¥modo √©:",areaComodo)
+   escreval("A √°rea total √©:",areaTotal)
+   Escreval("Deseja adicionar outro c√¥modo? (S/N)")
    leia(confirma)
 
-   Enquanto confirma<>"N" faÁa
-      Escreval("Nome do cÙmodo")
+   Enquanto confirma<>"N" fa√ßa
+      Escreval("Nome do c√¥modo")
       leia(comodo)
       Escreval("Largura:")
       leia(largura)
@@ -44,11 +44,11 @@ Inicio
       leia(comprimento)
       areaComodo <- largura * comprimento
       areaTotal <- areaTotal+areaComodo
-      escreval("A ·rea do cÙmodo atual È:",areaComodo)
-      escreval("A ·rea total È:",areaTotal)
+      escreval("A √°rea do c√¥modo atual √©:",areaComodo)
+      escreval("A √°rea total √©:",areaTotal)
 
 
-      Escreval("Deseja adicionar outro cÙmodo? (S/N)")
+      Escreval("Deseja adicionar outro c√¥modo? (S/N)")
       leia(confirma)
 
    fimenquanto
