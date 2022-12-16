@@ -2,8 +2,7 @@ Algoritmo "ManzanoExercicio15"
 // Disciplina  : [Lógica de Programação com Java Script]
 // Professor   : Obama
 // Descrição   : Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo)
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
-// Data atual  : 09/09/2022
+// Autor(a)    :
 Var
    // Seção de Declarações das variáveis
    valor:real
