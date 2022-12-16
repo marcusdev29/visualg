@@ -1,39 +1,39 @@
 Algoritmo "FACCAT35"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Obama
-// Descrição   : Escreva  um  algoritmo  que  leia  o  número  de  litros  vendidos  e  o  tipo  de  combustível (codificado  da seguinte  forma: A-álcool, G-gasolina),  calcule  e  imprima  o  valor  a  ser  pago  pelo  cliente  sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90).
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// DescriÃ§Ã£o   : Escreva  um  algoritmo  que  leia  o  nÃºmero  de  litros  vendidos  e  o  tipo  de  combustÃ­vel (codificado  da seguinte  forma: A-Ã¡lcool, G-gasolina),  calcule  e  imprima  o  valor  a  ser  pago  pelo  cliente  sabendo-se que o preÃ§o do litro da gasolina Ã© R$ 3,30 e o preÃ§o do litro do Ã¡lcool Ã© R$ 2,90).
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    litrosVendidos,valorFinal:real
    combustivel:caracter
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Insira a quantidade de litros:")
    Leia(litrosVendidos)
 
-   Escreval("Insira o tipo de combustível")
+   Escreval("Insira o tipo de combustÃ­vel")
    Leia(combustivel)
 
    se (litrosVendidos <=20) e (combustivel="A") entao
       valorFinal<-(litrosVendidos-(litrosVendidos*(3/100)))*2,90
-      Escreval("Preço a pagar: R$",valorFinal)
-   senão
+      Escreval("PreÃ§o a pagar: R$",valorFinal)
+   senÃ£o
       se(litrosVendidos >20) e (combustivel="A") entao
          valorFinal<-(litrosVendidos-(litrosVendidos*(5/100)))*2,90
-         Escreval("Preço a pagar: R$",valorFinal)
+         Escreval("PreÃ§o a pagar: R$",valorFinal)
       fimse
    fimse
    se (litrosVendidos <=20) e (combustivel="G")  entao
       valorFinal<-(litrosVendidos-(litrosVendidos*(4/100)))*3,30
-      Escreval("Preço a pagar: R$",valorFinal)
-   senão
+      Escreval("PreÃ§o a pagar: R$",valorFinal)
+   senÃ£o
       se(litrosVendidos >20) e (combustivel="G") entao
          valorFinal<-(litrosVendidos-(litrosVendidos*(6/100)))*3,30
-         Escreval("Preço a pagar: R$",valorFinal)
+         Escreval("PreÃ§o a pagar: R$",valorFinal)
       fimse
    fimse
    
