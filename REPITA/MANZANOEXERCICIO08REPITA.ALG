@@ -1,33 +1,33 @@
 Algoritmo "MANZANOEXERCICIO08REPITA"
-// Disciplina  : [Lógica de Programação com JavaSript]
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o com JavaSript]
 // Professor   : Obama
-// Descrição   :
+// DescriÃ§Ã£o   :
 
 //Elaborar  um  programa  que  possibilite  calcular
-//a área  total  de  uma  residência  (sala,
-//cozinha, banheiro, quartos, área de serviço,
+//a Ã¡rea  total  de  uma  residÃªncia  (sala,
+//cozinha, banheiro, quartos, Ã¡rea de serviÃ§o,
 //quintal, garagem, etc.). O programa deve
 //solicitar a entrada do nome, a largura e
-//o comprimento de um determinado cômodo.
-//Em seguida, deve apresentar a área do
-//cômodo  lido  e  também  uma  mensagem
-//solicitando  do  usuário  a  confirmação
-//de  continuar calculando  novos  cômodos.
-//Caso  o  usuário  responda  “NAO”,  o
+//o comprimento de um determinado cÃ´modo.
+//Em seguida, deve apresentar a Ã¡rea do
+//cÃ´modo  lido  e  tambÃ©m  uma  mensagem
+//solicitando  do  usuÃ¡rio  a  confirmaÃ§Ã£o
+//de  continuar calculando  novos  cÃ´modos.
+//Caso  o  usuÃ¡rio  responda  â€œNAOâ€,  o
 //programa  deve  apresentar  o
-//valor total acumulado da área residencial.
+//valor total acumulado da Ã¡rea residencial.
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    : 
 // Data atual  : 15/10/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    areaTotal, largura, comprimento, areaComodo:real
    comodo,resposta: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   // vai ser só para o fatorial
+   // vai ser sÃ³ para o fatorial
 
 
    repita
@@ -39,13 +39,13 @@ Inicio
       leia(comprimento)
       areaComodo<- largura*comprimento
       areaTotal <- areaTotal + areaComodo
-      escreval("Área do cômodo é de :", areaComodo)
-      escreval("Área total é de :", areaTotal)
-      escreval("Deseja continuar adicionando cômodos?(S/N)")
+      escreval("Ãrea do cÃ´modo Ã© de :", areaComodo)
+      escreval("Ãrea total Ã© de :", areaTotal)
+      escreval("Deseja continuar adicionando cÃ´modos?(S/N)")
       leia(resposta)
 
    ate resposta = "N"
-   Escreval("Finalizando execução")
+   Escreval("Finalizando execuÃ§Ã£o")
 
 
 Fimalgoritmo
