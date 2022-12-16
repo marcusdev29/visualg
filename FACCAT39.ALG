@@ -1,15 +1,15 @@
 Algoritmo "FACCAT39"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Para  A = V,  B = V  e  C = F,  qual o resultado da avaliaÁ„o das seguintes expressıes: a) (A  e  B)  ou  (A  xou  B) b) (A  ou  B) e (A  e  C) c) A  ou  C  e  B  xou  A  en„o  B
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Para  A = V,  B = V  e  C = F,  qual o resultado da avalia√ß√£o das seguintes express√µes: a) (A  e  B)  ou  (A  xou  B) b) (A  ou  B) e (A  e  C) c) A  ou  C  e  B  xou  A  en√£o  B
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 A,B,C,resultado:logico
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 A<-verdadeiro
 B<-verdadeiro
 C<-falso
@@ -19,8 +19,8 @@ escreval(resultado)
 Escreva("b) (A  ou  B) e (A  e  C) ")
 resultado<- (A  ou  B) e (A  e  C)
 escreval(resultado)
-Escreva("c) A  ou  C  e  B  xou  A  en„o  B  ")
-resultado<- A  ou  C  e  B  xou  A  en„o  B
+Escreva("c) A  ou  C  e  B  xou  A  en√£o  B  ")
+resultado<- A  ou  C  e  B  xou  A  en√£o  B
 escreval(resultado)
 
 
