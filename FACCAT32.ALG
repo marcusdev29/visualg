@@ -1,33 +1,33 @@
 Algoritmo "FACCAT32"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaScript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor   : Obama
-// DescriÁ„o   : Ler o nome de 2 times e o n˙mero de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso n„o haja vencedor dever· ser impressa a palavra EMPATE.
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Descri√ß√£o   : Ler o nome de 2 times e o n√∫mero de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso n√£o haja vencedor dever√° ser impressa a palavra EMPATE.
+// Autor(a)    : 
 // Data atual  : 07/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    time1, time2:caracter
    golsTime1, golsTime2:inteiro
 
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Insira o nome de um dos times que jogaram:")
    Leia(time1)
-   Escreval("Digite o n˙mero de gols marcados desse time")
+   Escreval("Digite o n√∫mero de gols marcados desse time")
    Leia(golsTime1)
 
    Escreval("Insira o nome do outro time:")
    Leia(time2)
-   Escreval("Digite o n˙mero de gols marcados desse time")
+   Escreval("Digite o n√∫mero de gols marcados desse time")
    Leia(golsTime2)
 
-   se golsTime2 > golsTime1 ent„o
+   se golsTime2 > golsTime1 ent√£o
       Escreval(time2, " venceu de ",golsTime2," a",golsTime1)
-   sen„o
-      se golsTime1 > golsTime2 ent„o
+   sen√£o
+      se golsTime1 > golsTime2 ent√£o
          Escreval(time1, " venceu de ",golsTime1," a",golsTime2)
-         sen„o
+         sen√£o
          Escreval(time1, " ",golsTime1," x ",golsTime2, " ",time2)
          Escreval("EMPATE")
       fimse
