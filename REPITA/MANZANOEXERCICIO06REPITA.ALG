@@ -1,28 +1,28 @@
 Algoritmo "MANZANOEXERCICIO06REPITA"
-// Disciplina  : [LÛgica de ProgramaÁ„o com JavaSript]
+// Disciplina  : [L√≥gica de Programa√ß√£o com JavaSript]
 // Professor   : Obama
-// DescriÁ„o   :
+// Descri√ß√£o   :
 
 // Elaborar  um  programa  que  efetue  a  leitura
-//sucessiva  de  valores  numÈricos  e  apresente  no
-//final  o total do somatÛrio, a mÈdia aritmÈtica e o
+//sucessiva  de  valores  num√©ricos  e  apresente  no
+//final  o total do somat√≥rio, a m√©dia aritm√©tica e o
 //total de valores lidos. O programa deve fazer as
-//leituras dos  valores  enquanto  o  usu·rio  estiver
+//leituras dos  valores  enquanto  o  usu√°rio  estiver
 //fornecendo  valores  positivos.  Ou  seja,  o  programa
-//deve parar  quando  o  usu·rio  fornecer  um  valor
-//negativo. N„o  se  esqueÁa  que  o  usu·rio  pode  entrar
-//como primeiro n˙mero um n˙mero negativo,
-//portanto, cuidado com a divis„o por zero no c·lculo da mÈdia.
+//deve parar  quando  o  usu√°rio  fornecer  um  valor
+//negativo. N√£o  se  esque√ßa  que  o  usu√°rio  pode  entrar
+//como primeiro n√∫mero um n√∫mero negativo,
+//portanto, cuidado com a divis√£o por zero no c√°lculo da m√©dia.
 
 
-// Autor(a)    : Pedro Henrique Fonseca Teixeira da Silva
+// Autor(a)    :
 // Data atual  : 15/10/2022
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    soma, total, media, valor:real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    repita
       escreval("Digite um valor:")
       leia(valor)
@@ -32,7 +32,7 @@ Inicio
 
    ate valor < 0
    media <- soma/total
-   escreval("A soma È ",soma)
-   escreval("A media È ",media)
+   escreval("A soma √© ",soma)
+   escreval("A media √© ",media)
 
 Fimalgoritmo
